@@ -19,5 +19,5 @@ add_action('wp_enqueue_scripts', 'wp_scrollnav_scripts');
 
 function wp_scrollnav_scripts()
 {
-    wp_enqueue_script( 'wp_scrollnav', plugin_dir_url( __FILE__ ) . '/wp_scrollnav.js', array('jquery'), '1.0.0' );
+    wp_enqueue_script( 'wp_scrollnav', plugin_dir_url( __FILE__ ) . '/wp_scrollnav.js', array('jquery'), '1.0.0' true );
 }
